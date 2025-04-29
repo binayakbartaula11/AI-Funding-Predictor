@@ -153,7 +153,7 @@ Potential areas for future exploration include:
 
 ## 🗂️ Data Sources
 
-The default dataset is based on aggregated public information about AI/ML startup funding from 2018-2024. Users can modify this data or input their own for custom analysis.
+The default dataset is based on aggregated public information about AI/ML startup funding from 2018-2024, obtained from [Perplexity Research](https://www.perplexity.ai/search/please-provide-structured-data-TuW86UxiRCykQcOQAXFIUg). Users can modify this data or input their own for custom analysis.
 
 ## 📄 License
 
