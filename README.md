@@ -127,12 +127,12 @@ Here are two visualizations:
 1. **Streamlit Forecasting Visualization**  
    An interactive chart from the Streamlit app showing the funding trends and forecasts.
 
-   ![visualization](Funding-Predictor/raw/main/visualization.png)
+   ![visualization](Forecasting/raw/main/visualization.png)
 
 2. **Excel Output Visualization**  
    A screenshot of the Excel file showing the calculated forecasted funding values alongside historical data.
 
-   ![output_image](Funding-Predictor/raw/excel_charts/output_image.png)
+   ![output_image](Forecasting/raw/excel_charts/output_image.png)
 
 
 ## 🔮 Future Work
