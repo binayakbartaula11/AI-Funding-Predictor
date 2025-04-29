@@ -31,21 +31,27 @@ Where more recent years get higher weights (oldest=1, middle=2, newest=4).
 Where α is the smoothing factor between 0 and 1.
 """)
 
+# Add data source reference
+st.info("""
+**Data Source:** Historical funding data (2018-2024) obtained from Perplexity research.  
+[View Research Source](https://www.perplexity.ai/search/please-provide-structured-data-TuW86UxiRCykQcOQAXFIUg)
+""")
+
 # Configuration Panel
 # Sidebar containing all user-adjustable parameters for customizing the forecast
 st.sidebar.header("Forecast Parameters")
 
 # Historical Dataset
-# Default funding data in billions USD from 2018-2024 for AI/ML startups
+# Funding data (2018-2024) obtained from research via Perplexity, in billions USD for AI/ML startups
 years_default = [2018, 2019, 2020, 2021, 2022, 2023, 2024]
-funding_default = [22.1, 26.6, 33.0, 66.8, 48.0, 50.0, 57.5]  # Using midpoint of 55-60 for 2024
+funding_default = [9.3, 26.6, 36, 68, 45.8, 42.5, 100.4]
 
 # Data Input Controls
-# Allows users to use default dataset or input custom historical values
+# Allows users to use research data or input custom historical values
 st.sidebar.subheader("Historical Data")
-use_default = st.sidebar.checkbox("Use Default Data", value=True)
+use_research = st.sidebar.checkbox("Use Default Data", value=True)
 
-if use_default:
+if use_research:
     years = years_default
     funding = funding_default
 else:
