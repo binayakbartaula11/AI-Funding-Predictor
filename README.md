@@ -3,6 +3,8 @@
 ## Overview
 This project analyzes and forecasts AI/ML startup funding trends using three different moving average techniques: Simple Moving Average (SMA), Weighted Moving Average (WMA), and Exponential Moving Average (EMA). The interactive Streamlit application visualizes historical funding data from 2018-2024 and projects 2025 funding values.
 
+[📄 View Technical Whitepaper](./whitepaper.md)
+
 ## 🚀 [Live Demo](https://ai-funding-predictor.streamlit.app)
 
 ## Background
@@ -42,35 +44,124 @@ EMA(t) = Previous_EMA + α(Current_Value - Previous_EMA)
 ```
 Where α is the smoothing factor between 0 and 1.
 
-## 🛠️ Installation
+## ⚙️ Getting Started with Anaconda (Recommended)
 
-1. Clone this repository:
-```bash
-git clone https://github.com/binayakbartaula11/AI-Funding-Predictor.git
-```
+Follow these steps to run the project using **Anaconda Prompt**:
 
-Navigate to the project directory:
-```bash
-cd AI-Funding-Predictor
-```
+1. **Install Anaconda**
+   👉 [Download Anaconda](https://www.anaconda.com/download) and install it based on your operating system.
 
-2. Create and activate a virtual environment (optional but recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+2. **Open Anaconda Prompt**
 
-3. Install the required packages:
-```bash
-pip install -r requirements.txt
-```
+   * Search for "Anaconda Prompt" on your system and open it.
 
-4. Run the Streamlit app:
-```bash
-streamlit run app.py
-```
+3. **Create a new conda environment**
 
-5. Open your web browser and go to `http://localhost:8501`
+   * This ensures all dependencies are isolated:
+
+   ```bash
+   conda create --name ai-funding-predictor python=3.8
+   ```
+
+   * Activate the newly created environment:
+
+   ```bash
+   conda activate ai-funding-predictor
+   ```
+
+4. **Install Streamlit**
+
+   If you don’t have Streamlit installed yet, use the following:
+
+   ```bash
+   pip install streamlit
+   ```
+
+5. **Navigate to the Project Directory**
+
+   ```bash
+   cd path/to/AI-Funding-Predictor
+   ```
+
+6. **Install Required Dependencies**
+
+   * Make sure all the required packages are installed:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+7. **Run the Streamlit App**
+
+   Start the application by running:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+8. **View in Browser**
+
+   Your browser should automatically open and navigate to `http://localhost:8501`. If not, copy the URL from the prompt and paste it into your browser.
+
+---
+
+## 🧰 Installation (Without Anaconda)
+
+### Prerequisites
+
+* Python 3.6+
+* pip
+* (Optional) Virtual Environment
+
+### Steps
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/binayakbartaula11/AI-Funding-Predictor.git
+   cd AI-Funding-Predictor
+   ```
+
+2. **Create and Activate a Virtual Environment (Recommended)**
+
+   * It's good practice to use a virtual environment to isolate dependencies:
+
+   ```bash
+   python -m venv venv
+   ```
+
+   * Activate the virtual environment:
+
+   - **Windows:**
+
+     ```bash
+     venv\Scripts\activate
+     ```
+   - **macOS/Linux:**
+
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. **Install Required Dependencies**
+
+   Install the necessary Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Streamlit App**
+
+   After all dependencies are installed, run:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+5. **View in Browser**
+
+   Your browser should automatically navigate to `http://localhost:8501`. If it doesn’t, copy the URL from the terminal and paste it into your browser.
 
 ## 📦 Requirements
 
