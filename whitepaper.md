@@ -1,9 +1,9 @@
 # AI/ML Startup Funding Forecast: Technical Whitepaper
 
-Author: Binayak Bartaula
-Department: Department of Computer Engineering
-Institution: Nepal College of Information Technology
-Date: May 2025
+**Author**: Binayak Bartaula  
+**Department**: Department of Computer Engineering  
+**Institution**: Nepal College of Information Technology  
+**Date**: May 2025
 
 ## Executive Summary
 
@@ -349,8 +349,35 @@ Where $\text{EMA}_0$ is the initialization value.
 
 ## Appendix B: References
 
-1. Hyndman, R.J., & Athanasopoulos, G. (2018). *Forecasting: principles and practice*. OTexts.
-2. Box, G.E., Jenkins, G.M., Reinsel, G.C., & Ljung, G.M. (2015). *Time Series Analysis: Forecasting and Control*. John Wiley & Sons.
-3. Perplexity Research. (2024). *Historical AI/ML Startup Funding Dataset 2018-2024*.
-4. Chatfield, C. (2000). *Time-series forecasting*. CRC Press.
-5. Montgomery, D.C., Jennings, C.L., & Kulahci, M. (2015). *Introduction to time series analysis and forecasting*. John Wiley & Sons.
+1. Hyndman, R.J., & Athanasopoulos, G. (2018). [*Forecasting: Principles and Practice*](https://otexts.com/fpp2/). OTexts.
+
+2. Box, G.E., Jenkins, G.M., Reinsel, G.C., & Ljung, G.M. (2015). [*Time Series Analysis: Forecasting and Control*](https://doi.org/10.1002/9781118619193). John Wiley & Sons.
+
+3. Perplexity Research. (2024). [*Historical AI/ML Startup Funding Dataset 2018-2024*](https://www.perplexity.ai/search/please-provide-structured-data-TuW86UxiRCykQcOQAXFIUg).
+
+4. Chatfield, C. (2000). [*Time-Series Forecasting*](https://doi.org/10.1201/9781420036206). CRC Press.
+
+5. Montgomery, D.C., Jennings, C.L., & Kulahci, M. (2015). [*Introduction to Time Series Analysis and Forecasting*](https://doi.org/10.1002/9781119264034). John Wiley & Sons.
+
+6. Taylor, S.J., & Letham, B. (2018). [*Forecasting at Scale*](https://doi.org/10.1080/00031305.2017.1380080). The American Statistician, 72(1), 37-45.
+
+7. Diebold, F.X. (2017). [*Forecasting in Economics, Business, Finance and Beyond*](https://www.sas.upenn.edu/~fdiebold/Textbooks.html). Department of Economics, University of Pennsylvania.
+
+8. Makridakis, S., Spiliotis, E., & Assimakopoulos, V. (2020). [*The M4 Competition: 100,000 time series and 61 forecasting methods*](https://doi.org/10.1016/j.ijforecast.2019.04.014). International Journal of Forecasting, 36(1), 54-74.
+
+9. Seabold, S., & Perktold, J. (2010). [*Statsmodels: Econometric and Statistical Modeling with Python*](https://conference.scipy.org/proceedings/scipy2010/seabold.html). Proceedings of the 9th Python in Science Conference.
+
+10. McKinney, W. (2010). [*Data Structures for Statistical Computing in Python*](https://conference.scipy.org/proceedings/scipy2010/mckinney.html). Proceedings of the 9th Python in Science Conference.
+
+## Appendix C: Online Resources
+
+- [Project GitHub Repository](https://github.com/binayakbartaula11/ai-funding-predictor)
+- [Interactive Web Application](https://ai-ml-funding-forecast.streamlit.app)
+- [Raw Data & Excel Models](https://github.com/binayakbartaula11/ai-funding-predictor/blob/main/ai_funding_forecast.xlsx)
+- [Data Source](https://www.perplexity.ai/search/please-provide-structured-data-TuW86UxiRCykQcOQAXFIUg)
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Plotly Python Documentation](https://plotly.com/python/)
+
+---
+
+*Copyright © 2025 Binayak Bartaula, Nepal College of Information Technology. All rights reserved.*
